@@ -37,7 +37,38 @@ console.log(heros,myobj);
 */
 
 //Function Definition
+
+/*
 const myFunction=function () {
     console.log("Hello world");
 }
 myFunction() //Function calling
+*/
+
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-primitive)
+
+
+//Memory in Stack
+let ytname="Dreamcomes"
+let anotherytname=ytname
+
+anotherytname="sweetdreams"
+console.log(ytname);
+console.log(anotherytname);
+
+//Memory in Heap
+let user1={
+    name:"madhav",
+    email:"madhav@google"
+}
+
+let user2=user1
+
+user2.email="user@google"
+
+console.log(user1);
+console.log(user2);
+
