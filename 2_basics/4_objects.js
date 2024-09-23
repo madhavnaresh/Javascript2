@@ -56,6 +56,24 @@ const tinderUser={}
  console.log(Object.values(tinderUser)); //accessing key/value from an object in form of array
  console.log(Object.entries(tinderUser)); //give all entries in form of array in array
  
- 
- 
- 
+
+//APIs:- a short intro
+ //in JS it's in form of Json[JavaScript Object Notation], and Json is also an object but without name
+//  it looks like 
+//this
+
+/*
+{
+    "id":"2314",
+    "name":"callis",
+    "age":"25"
+}
+*/
+
+//and this
+
+[
+    {},
+    {},
+    {}
+]
