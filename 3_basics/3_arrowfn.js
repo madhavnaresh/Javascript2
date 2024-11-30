@@ -7,7 +7,7 @@ const user={
         
     }
 }
-//user.welcomeMsg()
+user.welcomeMsg()
 user.username="gupta"
 user.welcomeMsg()
 // console.log(this); //here it will give empty object while in browser it works differently
